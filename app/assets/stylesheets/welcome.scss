@@ -1,3 +1,42 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+#bg {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('bg.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+header {
+  padding: 1rem;
+}
+header #logo {
+  float: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  letter-spacing: 1px;
+}
+nav ul {
+  list-style: none;
+  font-weight: 300;
+}
+nav ul li {
+  float: right;
+  display: inline;
+  margin-left: 2.5rem;
+  letter-spacing: 1px;
+}
+li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+h1.header {
+  margin: 7rem 0 2rem 0;
+  color: rgb(255, 255, 255);
+  font-size: 3.5rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+}

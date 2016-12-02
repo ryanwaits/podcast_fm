@@ -13,3 +13,53 @@
  *= require_tree .
  *= require_self
  */
+
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+
+ body {
+   font-family: 'Open Sans';
+ }
+ .wrapper-wide {
+   width: 90%;
+   margin: 0 auto;
+   height: 10vh;
+ }
+ .wrapper {
+   width: 80%;
+   margin: 0 auto;
+ }
+ .wrapper-skinny {
+   width: 60%;
+   margin: 0 auto;
+ }
+ .cf:before, .cf:after {
+   content: " ";
+   display: table;
+ }
+ .cf:after {
+   clear: both;
+ }
+ .button {
+   color: rgb(255, 255, 255);
+   text-decoration: none;
+   font-size: 1rem;
+   padding: 1rem 2rem;
+   margin: 1.5rem 2.5% 0 2.5%;
+   border-radius: 2rem;
+   outline: none;
+   border: none;
+   min-width: 2rem;
+   display: inline-block;
+   min-width: 7.5rem;
+ }
+ .button-highlight {
+   background: #c0392b;
+ }
+ .button-white {
+   background: rgb(255, 255, 255);
+   color: gray;
+ }
+ .divider {
+   padding: 1rem 0;
+   border-bottom: 1px solid rgba(75, 75, 75, 0.2);
+ }
