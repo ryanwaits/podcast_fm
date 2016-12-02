@@ -19,10 +19,10 @@ ActiveRecord::Schema.define(version: 20161202214722) do
     t.string   "title"
     t.text     "description"
     t.string   "email"
-    t.string   "password_digest"
+    t.string   "password"
     t.string   "itunes"
-    t.datetime "created_at",      null: false
-    t.datetime "updated_at",      null: false
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
   end
 
 end

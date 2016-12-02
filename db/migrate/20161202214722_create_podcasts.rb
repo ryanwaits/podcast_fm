@@ -4,7 +4,7 @@ class CreatePodcasts < ActiveRecord::Migration[5.0]
       t.string :title
       t.text :description
       t.string :email
-      t.string :password_digest
+      t.string :password
       t.string :itunes
 
       t.timestamps
