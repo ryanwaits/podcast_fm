@@ -18,19 +18,20 @@
 <div id="form">
   <div class="wrapper-skinny">
     <ul>
+      <%= form_for @podcast, url: registration_path do |f| %>
       <li>
-        <input type="text" placeholder="Email">
+        <%= f.text_field :email, placeholder: 'Email' %>
       </li>
       <li>
-        <input type="text" placeholder="Password">
+        <%= f.password_field :password_digest, placeholder: 'Password' %>
       </li>
       <li>
-        <input type="text" placeholder="Confirm Password">
+        <%= f.submit 'Sign up', class: 'button button-highlight' %>
       </li>
-      <li class="button button-highlight">Sign up</li>
       <li>
         <a href="#">Already have an account? Sign in</a>
       </li>
+      <% end %>
     </ul>
   </div>
 </div>

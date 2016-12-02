@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  get 'registration/new'
+  get 'signup' => 'registrations#new', as: 'signup'
+  resource :registration, only: [:create]
 
   root 'welcome#index'
   resources :podcasts
