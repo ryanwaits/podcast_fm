@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'registration/new'
+
   root 'welcome#index'
   resources :podcasts
 
